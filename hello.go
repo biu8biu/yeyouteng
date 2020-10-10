@@ -9,10 +9,10 @@ func main() {
 	a := app.New()
 	w := a.NewWindow("Hello")
 
-	hello := widget.NewLabel("Hello Fyne!")
+	hello := widget.NewLabel("Hello Everyone!")
 	w.SetContent(widget.NewVBox(
 		hello,
-		widget.NewButton("Hi!", func() {
+		widget.NewButton("Hey!", func() {
 			hello.SetText("Welcome :)")
 		}),
 	))
